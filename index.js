@@ -71,7 +71,7 @@ function updateTestimonial() {
   username.innerHTML = name
   role.innerHTML = position
   idx++
-
+  //check idx if it greateer than testimonial length to reset index  for the replay
   if (idx > testimonials.length - 1) {
     idx = 0
   }
